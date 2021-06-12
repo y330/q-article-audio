@@ -1,11 +1,11 @@
-![](/src/assets/animated-logo-dark.svg)
+ ![](/src/assets/animated-logo-dark.svg)
 ![](/src/assets/animated-logo.svg)
 
 <h2>Q-Article Audio</h2>
 
 <h5><em>Yonah Aviv</em></h5>
 
-Note: _ALL ASSETS(i.e. those very clean and nice-looking logos) ARE SUBJECT TO THE OWNERSHIP OF YONAH AVIV_
+Note: _ALL ASSETS(i.e. those very clean and nice-looking logos) ARE SUBJECT TO THE OWNERSHIP OF YONAH AVIV_, excluding feather icons imported from `svelte-feather-icons` node package
 
 Scan a <b>QR code</b> in your browser to continue reading an article on your smartphone or tablet by <b>listening to the rest of an article</b> as a podcast which the QR code will navigate you to.
 
@@ -14,7 +14,12 @@ Scan a <b>QR code</b> in your browser to continue reading an article on your sma
 -------
 
 
-Q-Article Audio, the Chrome extension, is made using with manfiest v3 built wuith the <a href="https://github.com/bestguy/sveltestrap" alt="Sveltestrap">Sveltestrap</a> UI library. It is likely I will switch to <a href="https://svelte-materialify.vercel.app/" alt="Svelte Materialify">Svelte Materialify</a> library. This chrome extension is coded with <a href="https://svelte.dev/" alt="Svelte">Svelte</a> and webpack. Here is a screenshot of a semi-functional mockup I made using the sveltestrap library:
+Q-Article Audio, the Chrome extension, includes manfiest v3 and UI components from the <a href="https://github.com/bestguy/sveltestrap" alt="Sveltestrap">Sveltestrap</a> component library. However, it is likely I will switch to the material design library <a href="https://svelte-materialify.vercel.app/" alt="Svelte Materialify">Svelte Materialify</a>. This chrome extension is coded with  
+- <a href="https://svelte.dev/" alt="Svelte">__Svelte__</a>
+- <a href="https://webpack.js.dev" alt="webpack">__webpack__</a>
+
+__Here are screenshots of a semi-functional version 0.0.1__(Using the Sveltestrap UI components and a custom bootstrap 5 theme, however I forgot it's name at the time of writing this professional README.md)
+
 <ul>
 <li>
 
