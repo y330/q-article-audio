@@ -1,8 +1,9 @@
 {
-	"name": "webpack-svelte-ext",
-	"description": "CHrome extension with webpack and svelte",
-	"authors": "Yonah",
-	"version": "0.0.1",
+	"name": "q-article-audio",
+	"description": "Scan a QR code to listen to the rest of an article as a podcast while multitasking. Made with svelte, webpack, and manifest v3",
+	"authors": "Yonah Aviv",
+	"license": "MIT",
+	"version": "1.0.0",
 	"devDependencies": {
 		"@babel/core": "^7.14.5",
 		"@babel/preset-env": "^7.14.5",
