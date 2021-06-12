@@ -1,5 +1,5 @@
-![](/src/animated-logo-dark.svg)
-![](/src/animated-logo.svg)
+![](/src/assets/animated-logo-dark.svg)
+![](/src/assets/animated-logo.svg)
 
 <h2>Q-Article Podcast</h2>
 
