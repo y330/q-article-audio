@@ -1,7 +1,7 @@
 ![](/src/assets/animated-logo-dark.svg)
 ![](/src/assets/animated-logo.svg)
 
-<h2>Q-Article Podcast</h2>
+<h2>Q-Article Audio</h2>
 
 <h5><em>Yonah Aviv</em></h5>
 
