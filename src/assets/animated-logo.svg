@@ -1,0 +1,149 @@
+	<svg width="148" height="148" viewBox="0 0 148 148" fill="none" xmlns="http://www.w3.org/2000/svg" style="" class="">
+		<path width="137" height="137" fill="#3D98FF" fill-opacity="0.26" d="M 18.5,5.5 L 129.5,5.5 A 13,13,0,0,1,142.5,18.5 L 142.5,129.5 A 13,13,0,0,1,129.5,142.5 L 18.5,142.5 A 13,13,0,0,1,5.5,129.5 L 5.5,18.5 A 13,13,0,0,1,18.5,5.5" class="ixEMAyTJ_0"></path>
+		<path d="M74 107.714H80.48C83.7937 107.714 86.48 105.028 86.48 101.714L86.48 100.441L86.48 97.4081C86.48 95.0665 88.3783 93.1681 90.72 93.1681V93.1681C93.0617 93.1681 94.96 95.0665 94.96 97.4081L94.96 123.76C94.96 126.102 96.8583 128 99.2 128V128C101.542 128 103.44 126.102 103.44 123.76V84.24C103.44 81.8983 105.338 80 107.68 80V80C110.022 80 111.92 81.8983 111.92 84.24V111.44C111.92 113.782 113.818 115.68 116.16 115.68V115.68C118.502 115.68 120.4 113.782 120.4 111.44V107.66C120.4 104.346 123.086 101.66 126.4 101.66H131" stroke="#3D98FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" class="ixEMAyTJ_1"></path>
+		<path width="45" height="45" fill="#3D98FF" d="M 26,20 L 59,20 A 6,6,0,0,1,65,26 L 65,59 A 6,6,0,0,1,59,65 L 26,65 A 6,6,0,0,1,20,59 L 20,26 A 6,6,0,0,1,26,20" class="ixEMAyTJ_2"></path>
+		<path width="45" height="45" fill="#3D98FF" d="M 26,83 L 59,83 A 6,6,0,0,1,65,89 L 65,122 A 6,6,0,0,1,59,128 L 26,128 A 6,6,0,0,1,20,122 L 20,89 A 6,6,0,0,1,26,83" class="ixEMAyTJ_3"></path>
+		<path width="45" height="45" fill="#3D98FF" d="M 89,20 L 122,20 A 6,6,0,0,1,128,26 L 128,59 A 6,6,0,0,1,122,65 L 89,65 A 6,6,0,0,1,83,59 L 83,26 A 6,6,0,0,1,89,20" class="ixEMAyTJ_4"></path>
+		<path width="137" height="137" stroke="#3D98FF" stroke-width="11" d="M 18.5,5.5 L 129.5,5.5 A 13,13,0,0,1,142.5,18.5 L 142.5,129.5 A 13,13,0,0,1,129.5,142.5 L 18.5,142.5 A 13,13,0,0,1,5.5,129.5 L 5.5,18.5 A 13,13,0,0,1,18.5,5.5" class="ixEMAyTJ_5"></path>
+		<style data-made-with="vivus-instant">
+			.ixEMAyTJ_0 {
+				stroke-dasharray: 526 528;
+				stroke-dashoffset: 527;
+				animation: ixEMAyTJ_draw_0 6000ms ease 0ms infinite, ixEMAyTJ_fade 6000ms linear 0ms infinite;
+			}
+
+			.ixEMAyTJ_1 {
+				stroke-dasharray: 185 187;
+				stroke-dashoffset: 186;
+				animation: ixEMAyTJ_draw_1 6000ms ease 0ms infinite, ixEMAyTJ_fade 6000ms linear 0ms infinite;
+			}
+
+			.ixEMAyTJ_2 {
+				stroke-dasharray: 170 172;
+				stroke-dashoffset: 171;
+				animation: ixEMAyTJ_draw_2 6000ms ease 0ms infinite, ixEMAyTJ_fade 6000ms linear 0ms infinite;
+			}
+
+			.ixEMAyTJ_3 {
+				stroke-dasharray: 170 172;
+				stroke-dashoffset: 171;
+				animation: ixEMAyTJ_draw_3 6000ms ease 0ms infinite, ixEMAyTJ_fade 6000ms linear 0ms infinite;
+			}
+
+			.ixEMAyTJ_4 {
+				stroke-dasharray: 170 172;
+				stroke-dashoffset: 171;
+				animation: ixEMAyTJ_draw_4 6000ms ease 0ms infinite, ixEMAyTJ_fade 6000ms linear 0ms infinite;
+			}
+
+			.ixEMAyTJ_5 {
+				stroke-dasharray: 526 528;
+				stroke-dashoffset: 527;
+				animation: ixEMAyTJ_draw_5 6000ms ease 0ms infinite, ixEMAyTJ_fade 6000ms linear 0ms infinite;
+			}
+
+			@keyframes ixEMAyTJ_draw {
+				100% {
+					stroke-dashoffset: 0;
+				}
+			}
+
+			@keyframes ixEMAyTJ_fade {
+				0% {
+					stroke-opacity: 1;
+				}
+
+				85% {
+					stroke-opacity: 1;
+				}
+
+				100% {
+					stroke-opacity: 0;
+				}
+			}
+
+			@keyframes ixEMAyTJ_draw_0 {
+				16.666666666666664% {
+					stroke-dashoffset: 527
+				}
+
+				51.11111111111112% {
+					stroke-dashoffset: 0;
+				}
+
+				100% {
+					stroke-dashoffset: 0;
+				}
+			}
+
+			@keyframes ixEMAyTJ_draw_1 {
+				20.111111111111114% {
+					stroke-dashoffset: 186
+				}
+
+				54.55555555555557% {
+					stroke-dashoffset: 0;
+				}
+
+				100% {
+					stroke-dashoffset: 0;
+				}
+			}
+
+			@keyframes ixEMAyTJ_draw_2 {
+				23.555555555555554% {
+					stroke-dashoffset: 171
+				}
+
+				57.99999999999999% {
+					stroke-dashoffset: 0;
+				}
+
+				100% {
+					stroke-dashoffset: 0;
+				}
+			}
+
+			@keyframes ixEMAyTJ_draw_3 {
+				27% {
+					stroke-dashoffset: 171
+				}
+
+				61.44444444444444% {
+					stroke-dashoffset: 0;
+				}
+
+				100% {
+					stroke-dashoffset: 0;
+				}
+			}
+
+			@keyframes ixEMAyTJ_draw_4 {
+				30.44444444444444% {
+					stroke-dashoffset: 171
+				}
+
+				64.8888888888889% {
+					stroke-dashoffset: 0;
+				}
+
+				100% {
+					stroke-dashoffset: 0;
+				}
+			}
+
+			@keyframes ixEMAyTJ_draw_5 {
+				33.888888888888886% {
+					stroke-dashoffset: 527
+				}
+
+				68.33333333333333% {
+					stroke-dashoffset: 0;
+				}
+
+				100% {
+					stroke-dashoffset: 0;
+				}
+			}
+		</style>
+	</svg>
