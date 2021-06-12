@@ -48,7 +48,7 @@ PWA also available
 <li>Cross-platform support</li>
 </ul>
 </li>
-<li> Generates a QR code that will navigate towards the PWA which will contain your article allowing you to listen on your smartphone quickly, on the go</li>
+<li> Generates a QR code that will navigate towards the PWA which will contain your article as a podcast allowing you to listen on your smartphone quickly, on the go</li>
 <li>
 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
 </li>
