@@ -61,8 +61,12 @@ ____
 
 
 <p>
+
+__Buy me a coffee:__
+
+
 <a href="https://www.buymeacoffee.com/yonahaviv" alt="Buy Yonah a coffee">
-<img class="bmc-logo" src="https://cdn.buymeacoffee.com/assets/img/home-page-v3/bmc-new-logo.png" alt="Buy me a coffee" width="200px"><a>
+<img class="bmc-logo" src="https://img.buymeacoffee.com/api/?url=aHR0cHM6Ly9pbWcuYnV5bWVhY29mZmVlLmNvbS9hcGkvP25hbWU9WW9uYWgrQXZpdiZzaXplPTMwMCZiZy1pbWFnZT1ibWMmYmFja2dyb3VuZD03OUQ2QjU=&creator=Yonah+Aviv&is_creating=computer%20programming&design_code=1&design_color=%2379D6B5&slug=yonahaviv" alt="Buy me a coffee" width="400px"><a>
 
 Copyright © 2021 <a class="author-link" href="https://y330.github.io" target="_blank" rel="noopener noreferrer" > Yonah Aviv</a>
 </p>
