@@ -5,13 +5,16 @@
 
 <h5><em>Yonah Aviv</em></h5>
 
-Scan a <b>QR code</b> in your browser to continue reading an article on your smartphone or tablet by <b>listening to the rest of an article</b> as a podcast which the QR code will navigate you to.</p>
+Note: _ALL ASSETS(i.e. those very clean and nice-looking logos) ARE SUBJECT TO THE OWNERSHIP OF YONAH AVIV_
+
+Scan a <b>QR code</b> in your browser to continue reading an article on your smartphone or tablet by <b>listening to the rest of an article</b> as a podcast which the QR code will navigate you to.
+
 <h4>Demo: <a href="#"><em>Coming soon</em></a></h4>
 
 -------
 
 
-Chrome extension with manfiest v3 built using the <a href="https://github.com/bestguy/sveltestrap" alt="Sveltestrap">Sveltestrap</a> UI library. It is likely I will switch to <a href="https://svelte-materialify.vercel.app/" alt="Svelte Materialify">Svelte Materialify</a> library. This chrome extension is coded with <a href="https://svelte.dev/" alt="Svelte">Svelte</a> and webpack. Here is a screenshot of a semi-functional mockup I made using the sveltestrap library:
+Q-Article Audio, the Chrome extension, is made using with manfiest v3 built wuith the <a href="https://github.com/bestguy/sveltestrap" alt="Sveltestrap">Sveltestrap</a> UI library. It is likely I will switch to <a href="https://svelte-materialify.vercel.app/" alt="Svelte Materialify">Svelte Materialify</a> library. This chrome extension is coded with <a href="https://svelte.dev/" alt="Svelte">Svelte</a> and webpack. Here is a screenshot of a semi-functional mockup I made using the sveltestrap library:
 <ul>
 <li>
 
