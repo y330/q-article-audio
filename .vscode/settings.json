@@ -6,8 +6,10 @@
 		"**/CVS": true,
 		"**/.DS_Store": true,
 		"**/.vscode": true,
-		"**/node_modules": true
+		"**/node_modules": false
 	},
 	"explorerExclude.backup": null,
-	"git.ignoreLimitWarning": true
+	"git.ignoreLimitWarning": true,
+	"svelte-instant-view.baseFile": "src/popup.html",
+	"svelte-instant-view.disableScript": "dist/popup.bundle.js"
 }

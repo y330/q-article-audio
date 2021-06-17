@@ -16,22 +16,13 @@
 	},
 	"content_scripts": [
 		{
-			"matches": [
-				"https://google.com/*"
-			],
-			"js": [
-				"content.bundle.js"
-			]
+			"matches": ["https://google.com/*"],
+			"js": ["content.bundle.js"]
 		}
 	],
 	"content_security_policy": {
 		"extension_pages": "script-src 'self'; object-src 'self'"
 	},
-	"permissions": [
-		"scripting",
-		"tts"
-	],
-	"host_permissions": [
-		"https://google.com/"
-	]
+	"permissions": ["scripting", "tts"],
+	"host_permissions": ["https://google.com/"]
 }
