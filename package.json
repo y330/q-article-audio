@@ -1,45 +1,51 @@
 {
-	"name": "q-article-audio",
-	"description": "Scan a QR code to listen to the rest of an article as a podcast while multitasking. Made with svelte, webpack, and manifest v3",
-	"authors": "Yonah Aviv",
-	"license": "MIT",
-	"version": "1.0.0",
-	"devDependencies": {
-		"@babel/core": "^7.14.5",
-		"@babel/preset-env": "^7.14.5",
-		"@material/typography": "^11.0.0",
-		"@smui/button": "^4.2.0",
-		"@smui/common": "^4.2.0",
-		"@smui/tab": "^4.2.0",
-		"@smui/tab-bar": "^4.2.0",
-		"@types/chrome": "^0.0.145",
-		"babel-loader": "^8.2.2",
-		"clean-webpack-plugin": "^4.0.0-alpha.0",
-		"copy-webpack-plugin": "^5.1.1",
-		"css-loader": "^5.2.6",
-		"file-loader": "^6.0.0",
-		"html-loader": "^0.5.5",
-		"html-webpack-plugin": "^4.0.2",
-		"mini-css-extract-plugin": "^1.3.4",
-		"postcss": "^8.3.4",
-		"sass": "^1.35.0",
-		"sass-loader": "^8.0.2",
-		"style-loader": "^1.1.3",
-		"svelte": "^3.38.2",
-		"svelte-feather-icons": "^3.5.0",
-		"svelte-loader": "^3.0.0",
-		"svelte-preprocess": "^4.7.3",
-		"webpack": "^4.43.1",
-		"webpack-chrome-extension-launcher": "^1.1.4",
-		"webpack-cli": "^3.3.12",
-		"webpack-dev-server": "^3.11.2",
-		"write-file-webpack-plugin": "^4.5.1"
-	},
-	"scripts": {
-		"build": "node scripts/build.js",
-		"start": "node scripts/webpack.js"
-	},
-	"dependencies": {
-		"svelte-material-ui": "^4.2.0"
-	}
+  "name": "q-article-audio",
+  "description": "Scan a QR code to listen to the rest of an article as a podcast while multitasking. Made with svelte, webpack, and manifest v3",
+  "authors": "Yonah Aviv",
+  "license": "MIT",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "pack": "web-ext build --overwrite-dest --artifacts-dir dist_packed --source-dir dist --filename q-article-audio-{version}.zip",
+    "pack-self": "zip-self -o dist_packed/q-article-audio-{version}-source.zip",
+    "build-pack": "pnpm run build && pnpm run pack && pnpm run pack-self",
+    "set-version": "set-json-version -f package.json dist/manifest.json -v",
+    "validate": "svelte-check",
+    "run-browser": "web-ext run --no-config-discovery --source-dir dist --verbose --target",
+    "run-chromium": "pnpm run-browser chromium",
+    "run-edge-windows": "\"\"%ProgramFiles(x86)%\\Microsoft\\Edge\\Application\\msedge.exe\"\" https://steamcommunity.com/id/avi12 --load-extension=%cd%\\dist"
+  },
+  "dependencies": {
+    "@vime/svelte": "^5.0.31",
+    "krome": "^0.2.0"
+  },
+  "devDependencies": {
+    "@mdi/js": "^5.9.55",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "postcss": "^8.2.15",
+    "prettier": "^2.3.0",
+    "prettier-plugin-svelte": "^2.3.0",
+    "rollup": "^2.48.0",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "sass": "^1.32.13",
+    "set-json-version": "^1.0.6",
+    "svelte": "^3.38.2",
+    "svelte-feather": "^2.0.0-next.2",
+    "svelte-materialify": "^0.3.10",
+    "svelte-preprocess": "^4.7.3",
+    "web-ext": "^6.1.0",
+    "zip-self": "^0.3.2"
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "arrowParens": "avoid",
+    "singleQuote": false,
+    "svelteSortOrder": "scripts-markup-styles"
+  }
 }
