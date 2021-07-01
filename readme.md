@@ -14,31 +14,26 @@ Scan a <b>QR code</b> in your browser to continue reading an article on your sma
 -------
 
 
-Q-Article Audio, the Chrome extension, includes manfiest v3 and UI components from the <a href="https://github.com/bestguy/sveltestrap" title="Sveltestrap">Sveltestrap</a> component library. However, it is likely I will switch to the material design library <a href="https://svelte-materialify.vercel.app/" title="Svelte Materialify">Svelte Materialify</a>. This chrome extension is coded with  
+Q-Article Audio, the Chrome extension, includes manfiest v3 and UI components from the material design library <a href="https://svelte-materialify.vercel.app/" title="Svelte Materialify">Svelte Materialify</a>. This chrome extension is coded with
 - <a href="https://svelte.dev/" title="Svelte website">__Svelte__</a>
-- <a href="https://webpack.js.dev" title="webpack.js website">__webpack__</a>
+- <a href="https://rollupjs.org" title="webpack.js website">Rollup</a>
 
-__Here are screenshots of a semi-functional version 0.0.1__(Using the Sveltestrap UI components and a custom bootstrap 5 theme, however I forgot it's name at the time of writing this professional README.md)
+__Here are screenshots of a semi-functional version 0.0.1__(Using Material Design)
 
 <ul>
 <li>
 
-![](/documentation/screenshots/screenshot1.png)
+![](assets/screenshots/2021-07-01-19-26-49.png)</li>
+<li>
 
+![](assets/screenshots/2021-07-01-19-24-16.png)
 </li>
 <li>
 
-![](/documentation/screenshots/screenshot2.png)
+![](assets/screenshots/2021-07-01-19-27-19.png)
 
 </li>
 <li>
-
-![](/documentation/screenshots/screenshot3.png)
-</li>
-<li>
-
-![](/documentation/screenshots/screenshot4.png)
-
 </li>
 </ul>
 <h2>Features</h2>
@@ -60,10 +55,33 @@ PWA also available
 <li>
 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
 </li>
+<li>
+Macro Mode - Have the text zoom in on the line and scroll while reading.
+</li>
+<li>
+Archive -  Archive items that are taking up space in the recents pane but you still may want to reference for later.
+</li>
+<li>
+Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+</li>
 </ul>
 
 -------
 Note: <b>Unreleased on any web extension stores</b>
+Feel free to try it out:
+
+In your terminal(i use bash) :
+ `git clone y330/q-article-audio`
+
+then `cd q-article-audio`.
+
+after this:
+`pnpm i` Instead you can also use `NPM`,`yarn`, or another suitable package manager of your choice, but its my personal preference to use `pnpm`.
+
+After installing dependancies with the previous command, type the following in your terminal:
+`pnpm run dev`
+
+then go to chrome://extensions and turn on developer mode, and press "load unpacked", and pick the dist directory in the q-article-audio folder. And your done!🤝
 
 ____
 

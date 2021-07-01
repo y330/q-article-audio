@@ -1,9 +1,7 @@
-
-
 <script>
   import { Player, Audio, DefaultUi } from "@vime/svelte";
-
 </script>
+
 <svelte:head>
   <!-- Default theme. ~960B -->
   <link
@@ -12,13 +10,14 @@
   />
 </svelte:head>
 
-<h5 id="url"></h5>
-<Player  theme="dark" style="--vm-player-theme: #ff8923; position: relative !important;">
-  <Audio >
+<h5 id="url">This is still a work in progress! expect to experience many bugs and glitches</h5>
+<Player theme="dark" style="--vm-player-theme: #e95420;">
+  <Audio>
     <source data-src="https://media.vimejs.com/audio.mp3" type="video/mp4" />
   </Audio>
 
   <DefaultUi />
 </Player>
+
 <style>
-	</style>
+</style>

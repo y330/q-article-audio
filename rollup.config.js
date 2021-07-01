@@ -51,9 +51,9 @@ function createConfig(filename, useSvelte = false) {
 
 function createConfigCss(filename) {
   return {
-    input: `src/styles-injected/${filename}.css`,
+    input: `src/styles/${filename}.css`,
     output: {
-      file: `dist/build/styles-injected/${filename}.css`,
+      file: `dist/build/styles/${filename}.css`,
     },
     plugins: [
       postcss({
@@ -70,5 +70,7 @@ export default [
   createConfig("popup/popup", true),
   createConfig("scripts/background"),
   createConfig("scripts/content"),
+  createConfig("scripts/store"),
   createConfigCss("main"),
+  createConfigCss("injected"),
 ];

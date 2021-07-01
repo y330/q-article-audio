@@ -1,6 +1,5 @@
 <script>
   // components
-  import AudioBar from "./../components/AudioBar.svelte";
   // variables
   export let currentUrl;
   class GetContent {
@@ -13,12 +12,9 @@
   }
 </script>
 
-<!---------------------------------------------------------->
-<AudioBar />
+<section class="tabpane__">
+  <span>Right now, browsing <a href="#">{currentUrl}</a>!</span>
+</section>
 
-<span>Right now, browsing {currentUrl}!</span>
-
-<!---------------------------------------------------------->
 <style>
-  /* your styles go here */
 </style>

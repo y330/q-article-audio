@@ -1,13 +1,17 @@
 <script>
+  // components
   import {
     List,
-
     ExpansionPanel,
     ExpansionPanels,
     Button,
+    Tooltip,
   } from "svelte-materialify";
-
+  import { Volume2 } from "svelte-feather";
   /*--------*/
+  /*
+   * @description: what the history list item will look like
+   */
   export let history = [
     {
       title: "String",
@@ -24,26 +28,50 @@
     }
     value = value;
   }
+  let isPlaying = false;
 </script>
 
-<div class="text-center">
-  <Button on:click={() => toggle(0)}>Toggle Index 0</Button>
-  <Button on:click={() => toggle(1)}>Toggle Index 1</Button>
-  <Button on:click={() => toggle(2)}>Toggle Index 2</Button>
-</div>
+<section class="tabpane__">
+  <!----------------------------------------------------->
 
-<div class="d-flex justify-center">
-  <List class="elevation-2 scrollable" style="width:300px">
-    <ExpansionPanels multiple bind:value>
-      {#each history as item}
-        <ExpansionPanel>
-          <span slot="header">{item.title}</span>
-          {item.snippet}
-        </ExpansionPanel>
-      {/each}
-    </ExpansionPanels>
-  </List>
-</div>
+  <div class="text-center">
+    <Button on:click={() => toggle(0)}>1</Button>
+    <Button on:click={() => toggle(1)}>2</Button>
+    <Button on:click={() => toggle(2)}>3</Button>
+  </div>
+
+  <div class="d-flex justify-center">
+    <List class="elevation-2 scrollable">
+      <ExpansionPanels bind:value>
+        {#each history as item}
+          <ExpansionPanel>
+            <span slot="header">{item.title} </span>
+            <Button>
+              <Volume2
+                color="red"
+                size="1em"
+                on:click={() => {
+                  isPlaying = !isPlaying;
+                }}
+              />
+            </Button>
+            {item.snippet}
+          </ExpansionPanel>
+        {/each}
+      </ExpansionPanels>
+    </List>
+  </div>
+  <!---------------------------------------------------->
+</section>
 
 <style>
+  section.tabpane__ {
+    max-height: 20em;
+    padding-right: 0;
+    overflow-y: scroll;
+    width: min-content;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: row;
+  }
 </style>

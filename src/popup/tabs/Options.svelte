@@ -1,10 +1,7 @@
 <script>
   // components
   import { Switch } from "svelte-materialify";
-
-  /*   import { theme } from "../../../scripts/store";
-  import { toggleTheme } from "../../../scripts/utilities";
- */
+  /*-----------------------------------------*/
   let values = [true, false];
   let theme = function (state) {
     if (state) return "dark";
@@ -12,13 +9,25 @@
   };
 </script>
 
-<!-- markup (zero or more items) goes here -->
-<h3>Q - Article Audio</h3>
-<h5>Yonah Aviv</h5>
-<Switch bind:checked={values[0]} inset>Inset {theme(values[0])}</Switch>
+<secion class="tabpane__">
+  <!------------------------------------------>
+  <h3>Q - Article Audio</h3>
+  <h5>Yonah Aviv</h5>
 
-<em>Copyright © 2021 Yonah Aviv</em>
+  <Switch bind:checked={values[0]} inset>Set {theme(values[0])} Theme</Switch>
+
+  <!-- logo -->
+  <img src="/icons/animated-logo-dark.svg" alt="Q-article audio" />
+  <p>
+    <em>Copyright © 2021 Yonah Aviv</em>
+  </p>
+  <!------------------------------------------>
+</secion>
 
 <style>
-  /* your styles go here */
+  :root {
+    margin: auto;
+    width: min-content;
+    height: min-content
+  }
 </style>
