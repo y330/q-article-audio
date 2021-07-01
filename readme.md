@@ -1,8 +1,8 @@
 
 <h2>Q-Article Audio</h2>
 
- ![](/src/assets/animated-logo-dark.svg)
-![](/src/assets/animated-logo.svg)
+ ![](/dist/icons/animated-logo-dark.svg)
+![](/dist/icons/animated-logo.svg)
 <h6>Designed and Developed by Yonah Aviv</h6>
 
 Note: _ALL VISUAL ASSETS(i.e. those very clean and nice-looking logos) ARE SUBJECT TO THE OWNERSHIP OF YONAH AVIV_, excluding feather icons imported from `svelte-feather-icons` node package
