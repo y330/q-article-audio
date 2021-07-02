@@ -19,7 +19,7 @@ Q-Article Audio, the Chrome extension, includes manfiest v3(actually for now it 
 - <a href="https://rollupjs.org" title="webpack.js website">Rollup</a>
 
 __Here are screenshots of a semi-functional version 0.2.0__(Using Material Design)
-
+p.s. I actually like windows better; its just the OS X window frames look better.
 <ul>
 <li>
 
@@ -82,10 +82,14 @@ After installing dependencies with the previous command, type the following in y
 
 4. `pnpm run dev`
 
-5. go to [chrome://extensions](chrome://extensions)
+5. Go  to [chrome://extensions](chrome://extensions)
+6. Then, do the following:
    a. Turn on developer mode
+   
    b. Click on _load unpacked_. This will open a file explorer window.
+   
    c. Navigate to _q-article-audio/_ , and choose the _dist/_ directory.
+    
 
 
 And your done!🤝
