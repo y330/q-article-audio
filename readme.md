@@ -1,7 +1,7 @@
 
 <h2>Q-Article Audio</h2>
 
-![image](https://github.com/y330/Q-Article-Audio/blob/dev/dist/icons/animated-logo-dark.svg)
+![image](https://github.com/y330/Q-Article-Audio/blob/master/assets/logo-dark.svg?raw=true)
 
 <h6>Designed and Developed by Yonah Aviv</h6>
 
