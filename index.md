@@ -36,11 +36,15 @@ p.s. I actually like windows better; its just the OS X window frames look better
   </li>
     
 ## Changelogs
-    ### Changelog v0.2.0 (Pull request)
+	
+### Changelog v0.2.0 (Pull request)
 
 1. Switched Svelte Materialify for UI components
+	
 2. Switched from webpack to rollup
+	
 3. (Just for development) Switched from MV3 to MV2. This is because the `web-ext` package on npm is compatible only with manifest v2. Before I make the first stable release, you can expect to see a switch to manifest v3.
+	
 4. Had a change of heart in the goal of this extension. Instead of the qr code stuff, and listening to the rest of the current page, the following will be provided by this extension:
 	1. You can hover over links to different articles on a webpage and a popup with either a summary or the first paragraph (maybe this will be customizable) and hear that summary or whatever as audio. So not only do you rid yourself of the task of having to go to another webpage when confronted with a link, but also you can automatically listen to the summary of the webpage so you don't even need to think about it. If you're interested in reading the article, then you can just click the preview and you will be navigated to the whole webpage
 
@@ -108,13 +112,13 @@ And your done!🤝
 ____
 
 
-<p>
 
 __Buy me a coffee:__
 
 
 <a href="https://www.buymeacoffee.com/yonahaviv" title="Buy Yonah a coffee">
 <img class="bmc-logo" src="https://img.buymeacoffee.com/api/?url=aHR0cHM6Ly9pbWcuYnV5bWVhY29mZmVlLmNvbS9hcGkvP25hbWU9WW9uYWgrQXZpdiZzaXplPTMwMCZiZy1pbWFnZT1ibWMmYmFja2dyb3VuZD03OUQ2QjU=&creator=Yonah+Aviv&is_creating=computer%20programming&design_code=1&design_color=%2379D6B5&slug=yonahaviv" alt="Buy me a coffee" width="400px"><a>
-
+	
+<br><br>
+	
 Copyright © 2021 <a class="author-link" href="https://y330.vercel.app" target="_blank" rel="noopener noreferrer" title="Yonah's website" > Yonah Aviv</a>
-</p>
