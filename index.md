@@ -34,8 +34,11 @@ p.s. I actually like windows better; its just the OS X window frames look better
    <img alt="options" src="https://github.com/y330/q-article-audio/blob/master/assets/screenshots/options.png?raw=true"/>
 
   </li>
-    
-## Changelogs
+  </ul>
+	
+	
+	
+<h2>Releases</h2>
 	
 ### Changelog v0.2.0 (Pull request)
 
@@ -46,10 +49,11 @@ p.s. I actually like windows better; its just the OS X window frames look better
 3. (Just for development) Switched from MV3 to MV2. This is because the `web-ext` package on npm is compatible only with manifest v2. Before I make the first stable release, you can expect to see a switch to manifest v3.
 	
 4. Had a change of heart in the goal of this extension. Instead of the qr code stuff, and listening to the rest of the current page, the following will be provided by this extension:
+	
 	1. You can hover over links to different articles on a webpage and a popup with either a summary or the first paragraph (maybe this will be customizable) and hear that summary or whatever as audio. So not only do you rid yourself of the task of having to go to another webpage when confronted with a link, but also you can automatically listen to the summary of the webpage so you don't even need to think about it. If you're interested in reading the article, then you can just click the preview and you will be navigated to the whole webpage
 
-</ul>
-  <h2>Features</h2>
+
+<h2>Features</h2>
   <ul>
    <li>Lets you listen to articles present on a webpage</li>
   <li>
