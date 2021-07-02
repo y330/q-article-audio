@@ -1,0 +1,55 @@
+body {
+	width: 400px;
+
+	height: 20em;
+}
+/*------------------------------
+Scrollbar
+-------------------------------*/
+::-webkit-scrollbar {
+	width: 7px;
+}
+::-webkit-scrollbar-button {
+	background-color: #444857;
+	height: 0.5em;
+}
+::-webkit-scrollbar-corner {
+	background-color: #aaa;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #aaa;
+	opacity: 1;
+	transition: background-color 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #999;
+}
+
+::-webkit-scrollbar-thumb:active {
+	background-color: #7e7e7e;
+}
+/*____________________________
+Tab content-------------------
+______________________________
+*/
+:global(section.tabpane__) {
+	height: 20em;
+}
+/*____________________________
+link--------------------------
+______________________________
+*/
+:global(a) {
+	color: #da7e5d !important;
+
+	text-decoration: underline 1px;
+	transition: all 200ms ease-in-out;
+}
+:global(a:hover) {
+	color: #e95420 !important;
+
+	text-decoration-style: dotted;
+}

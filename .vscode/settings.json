@@ -5,9 +5,12 @@
 		"**/.hg": true,
 		"**/CVS": true,
 		"**/.DS_Store": true,
-		"**/.vscode": true,
-		"**/node_modules": true
+		"**/.vscode": false,
+		"**/node_modules": true,
+		".github": true
 	},
 	"explorerExclude.backup": null,
-	"git.ignoreLimitWarning": true
+	"git.ignoreLimitWarning": true,
+	"svelte-instant-view.baseFile": "src/popup.html",
+	"svelte-instant-view.disableScript": "dist/popup.bundle.js"
 }

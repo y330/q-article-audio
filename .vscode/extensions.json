@@ -1,5 +1,8 @@
 {
-	"recommendations": [
-		"fwgood.webpack-4-snippets"
-	]
+  "recommendations": [
+    "svelte.svelte-vscode",
+    "esbenp.prettier-vscode",
+    "eamodio.gitlens",
+    "bodil.file-browser"
+  ]
 }
