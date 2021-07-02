@@ -5,7 +5,6 @@
 
 <h6>Designed and Developed by Yonah Aviv</h6>
 
-Note: _ALL VISUAL ASSETS ARE SUBJECT TO THE OWNERSHIP OF YONAH AVIV_, excluding feather icons imported from `svelte-feather-icons` node package
 
 With Q-Article Audio, <b>listen to the rest of an article</b> as a podcast within the extension popup or on your smartphone using a QR code.
 
@@ -65,20 +64,33 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit.
 
 -------
 Note: <b>Unreleased on any web extension stores</b>
+
+Local Development
+===
 Feel free to try it out:
 
-In your terminal(i use bash) :
- `git clone y330/q-article-audio`
+In your preffered terminal(I use bash) type the following:
 
-then `cd q-article-audio`.
+1. `git clone y330/q-article-audio`
+That clones the repo into a new folder called _q-article-audio/_
 
-after this:
-`pnpm i` Instead you can also use `NPM`,`yarn`, or another suitable package manager of your choice, but its my personal preference to use `pnpm`.
+2. `cd q-article-audio`.
+That enters into the scope of _q-article-audio/_
 
-After installing dependancies with the previous command, type the following in your terminal:
-`pnpm run dev`
+3. `pnpm i`
+That installs the dependencies using pnpm([performant]npm). Feel free to use yarn or npm alternatively.
 
-then go to chrome://extensions and turn on developer mode, and press "load unpacked", and pick the dist directory in the q-article-audio folder. And your done!🤝
+
+After installing dependancies with the previous command, type the following in your terminal to run a local server for development of the extension[no hmr :(]
+4. `pnpm run dev`
+
+5. go to [chrome://extensions](chrome://extensions)
+   a. Turn on developer mode
+   b. Click on _load unpacked_. This will open a file explorer window.
+   c. Navigate to _q-article-audio/_ , and choose the _dist/_ directory.
+   
+   
+And your done!🤝
 
 ____
 
@@ -91,5 +103,5 @@ __Buy me a coffee:__
 <a href="https://www.buymeacoffee.com/yonahaviv" title="Buy Yonah a coffee">
 <img class="bmc-logo" src="https://img.buymeacoffee.com/api/?url=aHR0cHM6Ly9pbWcuYnV5bWVhY29mZmVlLmNvbS9hcGkvP25hbWU9WW9uYWgrQXZpdiZzaXplPTMwMCZiZy1pbWFnZT1ibWMmYmFja2dyb3VuZD03OUQ2QjU=&creator=Yonah+Aviv&is_creating=computer%20programming&design_code=1&design_color=%2379D6B5&slug=yonahaviv" alt="Buy me a coffee" width="400px"><a>
 
-Copyright © 2021 <a class="author-link" href="https://y330.github.io" target="_blank" rel="noopener noreferrer" title="Yonah's website" > Yonah Aviv</a>
+Copyright © 2021 <a class="author-link" href="https://y330.vercel.app" target="_blank" rel="noopener noreferrer" title="Yonah's website" > Yonah Aviv</a>
 </p>
