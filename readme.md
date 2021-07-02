@@ -18,7 +18,7 @@ Q-Article Audio, the Chrome extension, includes manfiest v3(actually for now it 
 - <a href="https://svelte.dev/" title="Svelte website">__Svelte__</a>
 - <a href="https://rollupjs.org" title="webpack.js website">Rollup</a>
 
-__Here are screenshots of a semi-functional version 0.0.1__(Using Material Design)
+__Here are screenshots of a semi-functional version 0.2.0__(Using Material Design)
 
 <ul>
 <li>
