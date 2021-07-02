@@ -23,14 +23,14 @@ p.s. I actually like windows better; its just the OS X window frames look better
 <ul>
 <li>
 
-![home](assets/screenshots/home.png)</li>
+![home](https://github.com/y330/q-article-audio/assets/screenshots/home.png)</li>
 <li>
 
-![recents](assets/screenshots/recents.png)
+![recents](https://github.com/y330/q-article-audio/assets/screenshots/recents.png)
 </li>
 <li>
 
-![options](assets/screenshots/options.png)
+![options](https://github.com/y330/q-article-audio/assets/screenshots/options.png)
 
 </li>
 </ul>
