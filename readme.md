@@ -1,20 +1,21 @@
 
 <h2>Q-Article Audio</h2>
 
- ![](/dist/icons/animated-logo-dark.svg)
-![](/dist/icons/animated-logo.svg)
+ ![](dist/icons/animated-logo-dark.svg)
+![image](https://user-images.githubusercontent.com/68514914/124202252-f6cdad00-daa7-11eb-8db4-8536bae14598.png)
+
 <h6>Designed and Developed by Yonah Aviv</h6>
 
-Note: _ALL VISUAL ASSETS(i.e. those very clean and nice-looking logos) ARE SUBJECT TO THE OWNERSHIP OF YONAH AVIV_, excluding feather icons imported from `svelte-feather-icons` node package
+Note: _ALL VISUAL ASSETS ARE SUBJECT TO THE OWNERSHIP OF YONAH AVIV_, excluding feather icons imported from `svelte-feather-icons` node package
 
-Scan a <b>QR code</b> in your browser to continue reading an article on your smartphone or tablet by <b>listening to the rest of an article</b> as a podcast which the QR code will navigate you to.
+With Q-Article Audio, <b>listen to the rest of an article</b> as a podcast within the extension popup or on your smartphone using a QR code.
 
-<h4>Demo: <a href="#" title="demo"><em>Coming soon</em></a></h4>
+<h4>Video Demo: <a href="#" title="demo"><em>Coming soon</em></a></h4>
 
 -------
 
 
-Q-Article Audio, the Chrome extension, includes manfiest v3 and UI components from the material design library <a href="https://svelte-materialify.vercel.app/" title="Svelte Materialify">Svelte Materialify</a>. This chrome extension is coded with
+Q-Article Audio, the Chrome extension, includes manfiest v3(actually for now it is manifest v2 because the web-ext module on npm is only compatible with mv2, but it also makes development much easier.) and UI components from the material design library <a href="https://svelte-materialify.vercel.app/" title="Svelte Materialify">Svelte Materialify</a>. This chrome extension is coded with
 - <a href="https://svelte.dev/" title="Svelte website">__Svelte__</a>
 - <a href="https://rollupjs.org" title="webpack.js website">Rollup</a>
 
@@ -38,11 +39,11 @@ __Here are screenshots of a semi-functional version 0.0.1__(Using Material Desig
 </ul>
 <h2>Features</h2>
 <ul>
-
+ <li>Lets you listen to articles present on a webpage</li>
 <li>
-Uses chrome TTS api
+Uses Google Chrome TTS API
 <ul>
-<li>Google's AI powered speech synthesis is lifelike and excellent</li>
+<li>Google's AI powered speech synthesis sounds natraul and lifelike</li>
 </ul>
 </li>
 <li>
@@ -52,9 +53,6 @@ PWA also available
 </ul>
 </li>
 <li> Generates a QR code that will navigate towards the PWA which will contain your article as a podcast allowing you to listen on your smartphone quickly, on the go</li>
-<li>
-Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-</li>
 <li>
 Macro Mode - Have the text zoom in on the line and scroll while reading.
 </li>
