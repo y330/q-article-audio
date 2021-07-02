@@ -6,6 +6,7 @@
 <h6>Designed and Developed by Yonah Aviv</h6>
 
 
+
 With Q-Article Audio, <b>listen to the rest of an article</b> as a podcast within the extension popup or on your smartphone using a QR code.
 
 <h4>Video Demo: <a href="#" title="demo"><em>Coming soon</em></a></h4>
@@ -22,17 +23,15 @@ __Here are screenshots of a semi-functional version 0.2.0__(Using Material Desig
 <ul>
 <li>
 
-![](assets/screenshots/2021-07-01-19-26-49.png)</li>
+![home](assets/screenshots/home.png)</li>
 <li>
 
-![](assets/screenshots/2021-07-01-19-24-16.png)
+![recents](assets/screenshots/recents.png)
 </li>
 <li>
 
-![](assets/screenshots/2021-07-01-19-27-19.png)
+![options](assets/screenshots/options.png)
 
-</li>
-<li>
 </li>
 </ul>
 <h2>Features</h2>
@@ -41,35 +40,32 @@ __Here are screenshots of a semi-functional version 0.2.0__(Using Material Desig
 <li>
 Uses Google Chrome TTS API
 <ul>
-<li>Google's AI powered speech synthesis sounds natraul and lifelike</li>
+<li>Google's AI powered speech synthesis sounds natural and lifelike</li>
 </ul>
 </li>
 <li>
-PWA also available
+PWA also available(may not do this)
 <ul>
 <li>Cross-platform support</li>
 </ul>
 </li>
-<li> Generates a QR code that will navigate towards the PWA which will contain your article as a podcast allowing you to listen on your smartphone quickly, on the go</li>
+<li> Generates a QR code that will navigate towards the PWA which will contain your article as a podcast allowing you to listen on your smartphone quickly, on the go(may change this feature fundamentally)</li>
 <li>
 Macro Mode - Have the text zoom in on the line and scroll while reading.
 </li>
 <li>
 Archive -  Archive items that are taking up space in the recents pane but you still may want to reference for later.
 </li>
-<li>
-Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-</li>
 </ul>
 
 -------
 Note: <b>Unreleased on any web extension stores</b>
 
-Local Development
-===
-Feel free to try it out:
+## Local Development
 
-In your preffered terminal(I use bash) type the following:
+Feel free to my extension it out:
+
+In your preferred terminal(I use bash) type the following:
 
 1. `git clone y330/q-article-audio`
 That clones the repo into a new folder called _q-article-audio/_
@@ -81,15 +77,17 @@ That enters into the scope of _q-article-audio/_
 That installs the dependencies using pnpm([performant]npm). Feel free to use yarn or npm alternatively.
 
 
-After installing dependancies with the previous command, type the following in your terminal to run a local server for development of the extension[no hmr :(]
+After installing dependencies with the previous command, type the following in your terminal to run a local server for development of the extension[no hmr :(]
+
+
 4. `pnpm run dev`
 
 5. go to [chrome://extensions](chrome://extensions)
    a. Turn on developer mode
    b. Click on _load unpacked_. This will open a file explorer window.
    c. Navigate to _q-article-audio/_ , and choose the _dist/_ directory.
-   
-   
+
+
 And your done!🤝
 
 ____

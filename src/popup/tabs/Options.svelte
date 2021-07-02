@@ -28,6 +28,6 @@
   :root {
     margin: auto;
     width: min-content;
-    height: min-content
+    height: 300px
   }
 </style>

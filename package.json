@@ -3,7 +3,7 @@
   "description": "Scan a QR code to listen to the rest of an article as a podcast while multitasking. Made with svelte, webpack, and manifest v3",
   "authors": "Yonah Aviv",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rollup -c",
