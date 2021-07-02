@@ -11,51 +11,62 @@ With Q-Article Audio, <b>listen to the rest of an article</b> as a podcast withi
 
 <h4>Video Demo: <a href="#" title="demo"><em>Coming soon</em></a></h4>
 
--------
+----
 
+Q-Article Audio, the Chrome extension, includes manfiest v3(actually for now it is manifest v2 because the web-ext module on npm is only compatible with mv2, but it also makes development much easier.) and UI components from the material design library <a href="https://svelte-materialify.vercel.app/" title="Svelte Materialify">Svelte Materialify</a>.
 
-Q-Article Audio, the Chrome extension, includes manfiest v3(actually for now it is manifest v2 because the web-ext module on npm is only compatible with mv2, but it also makes development much easier.) and UI components from the material design library <a href="https://svelte-materialify.vercel.app/" title="Svelte Materialify">Svelte Materialify</a>. This chrome extension is coded with
-- <a href="https://svelte.dev/" title="Svelte website">__Svelte__</a>
+This chrome extension is coded with
+- <a href="https://svelte.dev/" title="Svelte website"> __Svelte__ </a>
 - <a href="https://rollupjs.org" title="webpack.js website">Rollup</a>
 
-__Here are screenshots of a semi-functional version 0.2.0__(Using Material Design)
+__Here are screenshots of a semi-functional version 0.2.0__ (Using Material Design)
+
 p.s. I actually like windows better; its just the OS X window frames look better.
+
 <ul>
-<li>
+  <li>
+   <img alt="home" src="https://github.com/y330/q-article-audio/blob/master/assets/screenshots/home.png?raw=true"/>
+ </li>
+  <li>
+   <img alt="recents" src="https://github.com/y330/q-article-audio/blob/master/assets/screenshots/recents.png?raw=true"/>
+  </li>
+  <li>
+   <img alt="options" src="https://github.com/y330/q-article-audio/blob/master/assets/screenshots/options.png?raw=true"/>
 
-![home](https://github.com/y330/q-article-audio/assets/screenshots/home.png)</li>
-<li>
+  </li>
+    
+## Changelogs
+    ### Changelog v0.2.0 (Pull request)
 
-![recents](https://github.com/y330/q-article-audio/assets/screenshots/recents.png)
-</li>
-<li>
+1. Switched Svelte Materialify for UI components
+2. Switched from webpack to rollup
+3. (Just for development) Switched from MV3 to MV2. This is because the `web-ext` package on npm is compatible only with manifest v2. Before I make the first stable release, you can expect to see a switch to manifest v3.
+4. Had a change of heart in the goal of this extension. Instead of the qr code stuff, and listening to the rest of the current page, the following will be provided by this extension:
+	1. You can hover over links to different articles on a webpage and a popup with either a summary or the first paragraph (maybe this will be customizable) and hear that summary or whatever as audio. So not only do you rid yourself of the task of having to go to another webpage when confronted with a link, but also you can automatically listen to the summary of the webpage so you don't even need to think about it. If you're interested in reading the article, then you can just click the preview and you will be navigated to the whole webpage
 
-![options](https://github.com/y330/q-article-audio/assets/screenshots/options.png)
-
-</li>
 </ul>
-<h2>Features</h2>
-<ul>
- <li>Lets you listen to articles present on a webpage</li>
-<li>
-Uses Google Chrome TTS API
-<ul>
-<li>Google's AI powered speech synthesis sounds natural and lifelike</li>
-</ul>
-</li>
-<li>
-PWA also available(may not do this)
-<ul>
-<li>Cross-platform support</li>
-</ul>
-</li>
-<li> Generates a QR code that will navigate towards the PWA which will contain your article as a podcast allowing you to listen on your smartphone quickly, on the go(may change this feature fundamentally)</li>
-<li>
-Macro Mode - Have the text zoom in on the line and scroll while reading.
-</li>
-<li>
-Archive -  Archive items that are taking up space in the recents pane but you still may want to reference for later.
-</li>
+  <h2>Features</h2>
+  <ul>
+   <li>Lets you listen to articles present on a webpage</li>
+  <li>
+ Uses Google Chrome TTS API
+ <ul>
+ <li>Google's AI powered speech synthesis sounds natural and lifelike</li>
+ </ul>
+ </li>
+ <li>
+ PWA also available(may not do this)
+ <ul>
+ <li>Cross-platform support</li>
+ </ul>
+ </li>
+ <li> Generates a QR code that will navigate towards the PWA which will contain your article as a podcast allowing you to listen on your smartphone quickly, on the go(may change this feature fundamentally)</li>
+ <li>
+ Macro Mode - Have the text zoom in on the line and scroll while reading.
+ </li>
+ <li>
+ Archive -  Archive items that are taking up space in the recents pane but you still may want to reference for later.
+ </li>
 </ul>
 
 -------
